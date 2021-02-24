@@ -1,0 +1,24 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+	<servlet>
+		<servlet-name>addplayer</servlet-name>
+		<servlet-class>com.webapp.AddPlayerServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>addplayer</servlet-name>
+		<url-pattern>/addplayer</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>playerlist</servlet-name>
+		<servlet-class>com.webapp.PlayerListServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>playerlist</servlet-name>
+		<url-pattern>/playerlist</url-pattern>
+	</servlet-mapping>
+</web-app>
